@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ContentWindow</class>
+ <widget class="QMainWindow" name="ContentWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1106</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="mainWidget">
+   <widget class="QTreeView" name="section">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>256</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;background:white;</string>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::NoSelection</enum>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>841</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>839</width>
+       <height>709</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1106</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Профиль</string>
+    </property>
+    <addaction name="profile"/>
+    <addaction name="editProfile"/>
+    <addaction name="separator"/>
+    <addaction name="exitProfile"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="profile">
+   <property name="text">
+    <string>Посмотреть</string>
+   </property>
+  </action>
+  <action name="editProfile">
+   <property name="text">
+    <string>Изменить</string>
+   </property>
+  </action>
+  <action name="exitProfile">
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>На фон</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Полностью закрыть</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

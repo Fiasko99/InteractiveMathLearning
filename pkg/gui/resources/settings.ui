@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsWindow</class>
+ <widget class="QMainWindow" name="SettingsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>322</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="mainwidget">
+   <widget class="QPushButton" name="send_new_password">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>261</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: #72bac7;color: #edf7f9;font-weight: bold;border-radius: 5px;
+}
+
+QPushButton:hover {
+   background: #65b4c3;
+}
+
+QPushButton:pressed {
+   background: #7ec0cc;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Изменить пароль</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="new_password_value">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Новый пароль</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="real_pass_value">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Действующий пароль</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="common_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Изменить данные</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_new_email">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>261</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: #72bac7;color: #edf7f9;font-weight: bold;border-radius: 5px;
+}
+
+QPushButton:hover {
+   background: #65b4c3;
+}
+
+QPushButton:pressed {
+   background: #7ec0cc;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Изменить почту</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="new_email_value">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Новая почта</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
